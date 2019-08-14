@@ -1,0 +1,46 @@
+!!!
+%html
+%link{:href => '/home.css', :rel => "stylesheet", :type => "text/css"}
+  %head
+
+  %body
+    .flex-container
+      .flex-grid
+        .flex-box
+        .flex-box
+          - if @grid.top == ""
+            %form{:action => "/#{grid.url}", :method => "post"}
+              %input{:name => "lastname", :type => "text", :value => "Mouse"}
+              %br
+              %input{:type => "submit", :value => "Submit"}
+          - else
+            = @grid.top
+
+        .flex-box
+        .flex-box
+          - if @grid.top == ""
+            %form{:action => "/#{grid.url}", :method => "post"}
+              %input{:name => "lastname", :type => "text", :value => "Mouse"}
+              %br
+              %input{:type => "submit", :value => "Submit"}
+          - else
+            = @grid.top
+        .flex-box
+        .flex-box
+          - if @grid.top == ""
+            %form{:action => "/#{grid.url}", :method => "post"}
+              %input{:name => "lastname", :type => "text", :value => "Mouse"}
+              %br
+              %input{:type => "submit", :value => "Submit"}
+          - else
+            = @grid.top
+        .flex-box
+        .flex-box
+          - if @grid.top == ""
+            %form{:action => "/#{grid.url}", :method => "post"}
+              %input{:name => "lastname", :type => "text", :value => "Mouse"}
+              %br
+              %input{:type => "submit", :value => "Submit"}
+          - else
+            = @grid.top
+        .flex-box
